@@ -1,8 +1,27 @@
 aid: the-mom-project
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-mom-project.png
 name: The Mom Project
-description: 'The Mom Project is a company surfaced as a portfolio company of initialized-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: marketplaces. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'The Mom Project is a talent marketplace that connects skilled professionals
+  (with a focus on mothers and caregivers) to remote, hybrid, and onsite roles at
+  family-friendly employers. The platform pairs a community of hundreds of thousands
+  of vetted candidates with thousands of companies through job matching, curated
+  talent search, and managed hiring services such as pay-per-hire and access plans.
+  It was surfaced as a portfolio company of Initialized Capital and profiled in the
+  API Evangelist network. As of this enrichment pass, The Mom Project operates a
+  consumer/employer web product and consumes third-party APIs (for example a Docusign
+  eSignature integration for hiring workflows) but does not publish a public developer
+  portal, API reference, OpenAPI, or other machine-readable API surface of its own.'
 url: https://raw.githubusercontent.com/api-evangelist/the-mom-project/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Marketplaces
+- Talent
+- Hiring
+- Recruiting
+- Jobs
+- Future of Work
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://themomproject.com/
+- type: About
+  url: https://work.themomproject.com/about
+- type: Support
+  url: https://help.themomproject.com/
+- type: SignUp
+  url: https://themomproject.com/mom/signup
+- type: Pricing
+  url: https://work.themomproject.com/access
+- type: TermsOfService
+  url: https://themomproject.com/terms_of_service
+- type: PrivacyPolicy
+  url: https://themomproject.com/privacy_policy
+- type: DomainSecurity
+  url: security/the-mom-project-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
